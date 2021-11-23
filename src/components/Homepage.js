@@ -17,12 +17,9 @@ function Homepage() {
         height: "100vh",
       }}
     >
-      <div
-        className="container-md text-center"
-        style={{ borderStyle: "groove", color: "white" }}
-      >
-        <div className="row-md mt-5 mb-3">
-          <div className="col-md-12">
+      <div className="container-sm text-center" style={{ color: "white" }}>
+        <div className="row d-flex justify-content-center align-items-center">
+          <div className="col-md-12  ">
             <img
               className="img-fluid text-center "
               src="https://robohash.org/Enforc3rr"
@@ -30,23 +27,23 @@ function Homepage() {
             ></img>
           </div>
           <div className="col-md-12">
-            <h2 className="display-2">
+            <h2 className="display-2 mt-4 mb-4">
               <u>Prateek Kumar</u>
             </h2>
           </div>
           <div className="col-md-12">
-            <h4 className="display-4  mt-5 mb-5">
+            <h4 className="display-5 mt-5 mb-3">
               <Typewriter
                 options={{
-                  strings: ["Backend - Developer", "IT - Undergraduate"],
+                  strings: ["Backend-Developer", "IT-Undergradudate"],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h4>
           </div>
-          <div className="col-md-12 d-flex justify-content-center align-items-center ">
-            <button type="button" className="btn btn-grad mt-2 mb-3 ">
+          <div className="col-md-12 d-flex justify-content-center">
+            <button type="button" className="btn btn-grad mt-4 mb-4">
               My Resume
             </button>
           </div>
