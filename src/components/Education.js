@@ -46,7 +46,7 @@ function Education() {
           className="row mt-3 justify-content-center align-items-center"
           style={{ margin: "auto" }}
         >
-          <div className="col-md-6">
+          <div className="col-md-6 order-md-1">
             <div className="card">
               <h4 className="display-4  text-center">Front-end</h4>
               <ul
@@ -64,7 +64,7 @@ function Education() {
               </ul>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 order-md-12">
             <img
               className="img-fluid ml-5  mb-3 mt-3"
               style={{ width: "75%", height: "75%" }}
