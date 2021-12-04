@@ -19,4 +19,16 @@
             color: #fff;
             text-decoration: underline;
           }
+
+          .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #C6426E ;
+          }
+
+          .card:hover h4 {
+          
+            text-decoration: underline;
+            text-decoration-color: #642B73;
+
+          }
          
